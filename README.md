@@ -14,15 +14,15 @@ cd Monitoring-stack
 docker compose -f monitoring-stack.yml up -d
 
 🌐 Access Services
-Service	        URL	                    Credentials
+Service	    |    URL	         |           Credentials
 ---------------------------------------------------
-Grafana	        http://localhost:3000	  admin/admin
+Grafana	     |   http://localhost:3000	|  admin/admin
 ---------------------------------------------------
-Prometheus	    http://localhost:9090	  -
+Prometheus	 |   http://localhost:9090	 |  -
 ---------------------------------------------------
-Node Exporter	  http://localhost:9100	  -
+Node Exporter	 |  http://localhost:9100	 |  -
 ---------------------------------------------------
-cAdvisor	      http://localhost:8080	  -
+cAdvisor	 |    http://localhost:8080	 |  -
 
 🛠 Configuration
 1. Prometheus Targets
