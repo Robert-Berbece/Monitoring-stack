@@ -62,12 +62,12 @@ sudo apt install stress
 stress -c 2 -t 10m 
 ( this will use 2 cores of CPU for 10 minutes )
 
-------------------------------------------------
+
 * In Grafana go to Home -> Alerting -> Alert Rules (you should see a button in red saying "1 firing")
 This way you know the stress test and Grafnaa alerting works
 <img width="1598" height="940" alt="image" src="https://github.com/user-attachments/assets/a589b109-5f0d-461b-a72c-9b2e3af735cb" />
 
-------------------------------------------------
+
 * After test is finished, make sure to kill the stress proccess, using this command:
 pkill stress
 
