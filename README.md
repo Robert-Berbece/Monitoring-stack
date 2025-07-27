@@ -17,8 +17,11 @@ docker compose -f monitoring-stack.yml up -d
 Service	        URL	                    Credentials
 ---------------------------------------------------
 Grafana	        http://localhost:3000	  admin/admin
+---------------------------------------------------
 Prometheus	    http://localhost:9090	  -
+---------------------------------------------------
 Node Exporter	  http://localhost:9100	  -
+---------------------------------------------------
 cAdvisor	      http://localhost:8080	  -
 
 🛠 Configuration
