@@ -47,7 +47,8 @@ cAdvisor dashboard
 
 ------------------------------------------------
 🔔 Alert Configuration
-Sample CPU Alert:
+
+* Sample CPU Alert:
 1. Go to Alerting → Alert rules → New alert rule
 2. Set query: node_cpu_seconds_total
 3. Set Alert condition, when query is above 8000
@@ -73,5 +74,6 @@ pkill stress
 
 ------------------------------------------------
 🛑 Stop Services
-When done working with the monitoring tools, make sure to stop all services, using this command:
+
+* When done working with the monitoring tools, make sure to stop all services, using this command:
 docker compose -f monitoring-stack.yml down
